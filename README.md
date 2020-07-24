@@ -1,5 +1,7 @@
 # Example on how to use Amazon Interactive Video Services
 
+![](https://raw.githubusercontent.com/SolbiatiAlessandro/AWS-IVS-example/master/Screenshot%202020-07-24%20at%2017.18.12.png)
+
 <h3>Instructions on make your own stream work</h3>
    <ul>
      <li>Set up AWS IVS https://docs.aws.amazon.com/ivs/latest/userguide/what-is.html</li>
