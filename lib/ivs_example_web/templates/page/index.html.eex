@@ -1,0 +1,24 @@
+<section >
+  <div class="row">
+
+    <h3>Alex will be streaming right here ↓ </h3>
+  </div>
+   <div class="video-container">
+        <video id="amazon-ivs-videojs" class="video-js vjs-4-3 vjs-big-play-centered" controls autoplay playsinline>
+        </video>
+   </div>
+   <div class="row mt-4">
+   <h3>Instructions on how to make this work</h3>
+   <ul>
+     <li>Set up AWS IVS https://docs.aws.amazon.com/ivs/latest/userguide/what-is.html</li>
+     <li>Once you verified your streaming works (with the streaming software) copy the Playback URL (https://8005307726f4.eu-west-1.playback.live-video.net/api/video/v1/eu-west-1.532654645459.channel.gHUaJQQ7MGhb.m3u8) from the IVS console</li>
+     <li>Go in assets/js/ivs.js and change it as a default stream</li>
+   </ul>
+   <p>NOTE: if you are having problems with AWS IAM permissions check my SOF post https://stackoverflow.com/questions/62943841/aws-interactive-video-service-ivs-accessdeniedexception/63075179#63075179</p>
+   <p>You can also load custom m3u8 playback urls here</p>
+        <form class="src-container-direct">
+            <input class="src-input" placeholder="Enter .m3u8" />
+            <button class="src-submit" type="submit">Load</button>
+        </form>
+   </div>
+</section>
